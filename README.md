@@ -83,7 +83,7 @@ cron schedule and Telegram bot — see `bots/`.
 | Item | What it will do |
 |---|---|
 | **Skill Scout** | reads the shared Obsidian memory to learn what I am working on, then finds good and fresh GitHub repositories matching those needs — new skills for the colony |
-| **Agent Office** | pixel-art office where every bot is a character: walks to its desk, types, drinks coffee; click opens its real chat/log. Built by the **C.Q.** coder agent via opencode. Plan: `bots/agent-office.md` |
+| **Agent Office** | pixel-art office where every bot is a character: walks to its desk, types, drinks coffee; click opens its real chat/log. Built by the **C.Q.** coder agent via opencode. Planned centerpiece: an **orchestrator bot** — voice communication, task delegation to other agents in the moment, and computer control by voice. Plan: `bots/agent-office.md` |
 
 **Shared memory:** all agents keep their long-term memory in one Obsidian vault (markdown files:
 tasks, calendar, journal, handoff folders) — that is how the colony remembers and coordinates.

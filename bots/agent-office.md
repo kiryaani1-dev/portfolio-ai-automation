@@ -9,3 +9,16 @@
 - Stage plan: repo skeleton → office with one NPC → own Hermes driver → map + sprites → optional
   text command layer ("ask the butler about vacancies") → packaging with screenshots and a demo video.
 - Status: **in build** — priority after the colony itself is stable.
+
+## The orchestrator (planned centerpiece)
+
+A central **orchestrator bot** the human talks to, at the head of the office:
+
+- **Voice communication** — the main interface: speak to the orchestrator like Jarvis.
+- **Task delegation in the moment** — the orchestrator routes the request to the right agent right
+  away ("ask the butler about vacancies", "start the montage for episode 3") and reports back.
+- **Computer control by voice** — open programs, run commands, manage files by voice, with the
+  orchestrator translating the command into agent actions.
+
+This makes the office both a showcase and a usable control panel for the whole colony.
+
