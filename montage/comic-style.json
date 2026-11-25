@@ -1,0 +1,78 @@
+{
+ "name": "comic-style",
+ "label": "Канал 1: комикс-панели",
+ "canvas": {
+  "w": 1920,
+  "h": 1080,
+  "fps": 24,
+  "safe_bottom": 120
+ },
+ "palette": {
+  "paper": "#F2EAD9",
+  "paper2": "#FBF5E6",
+  "ink": "#17150F",
+  "red": "#E8442B",
+  "gold": "#E8A93B",
+  "blue": "#4A6FA5"
+ },
+ "fonts": {
+  "display": "Bangers",
+  "text": "Outfit",
+  "files": {
+   "display": "Bangers-latin.woff2",
+   "text": "Outfit-var.woff2"
+  }
+ },
+ "timing": {
+  "sr": 24000,
+  "cap": 0.3,
+  "max_pause": 2.0,
+  "lead_in": 0.06,
+  "tail_pad": 0.14,
+  "panel_lead": 0.32,
+  "panel_gap": 0.02,
+  "min_panel": 1.25,
+  "tail": 0.55,
+  "frame_ms": 10,
+  "sil_frac": 0.012,
+  "split_max": 6.0
+ },
+ "panel_fallback": 5.1667,
+ "page_in": 0.46,
+ "duo_open": 0.6,
+ "layout": {
+  "burst": false,
+  "rot": [
+   -0.9,
+   0.7,
+   -0.5,
+   1.0,
+   -0.7,
+   0.6,
+   -1.1,
+   0.8,
+   -0.6,
+   0.9
+  ],
+  "eases": [
+   "power4.out",
+   "back.out(1.8)",
+   "expo.out",
+   "back.out(2.6)",
+   "circ.out",
+   "power3.out",
+   "back.out(2.2)",
+   "expo.out",
+   "power4.out",
+   "back.out(1.6)"
+  ],
+  "final_text": "TO BE CONTINUED",
+  "splash": {
+   "margin": 26,
+   "cap_width": 1000,
+   "stat_size": 132,
+   "stat_left": 120,
+   "stat_top": 110
+  }
+ }
+}
